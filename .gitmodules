@@ -1,0 +1,3 @@
+[submodule "netlify-identity-widget"]
+	path = netlify-identity-widget
+	url = git@github.com:netlify/netlify-identity-widget.git
