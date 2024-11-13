@@ -53,7 +53,7 @@ def find_restaurants(lat, lng, date_time):
                     'rating': details.get('rating'),
                     'distance': restaurant.get('vicinity'),  # Simplified, actual distance calculation can be added
                     'delivery': 'Available' if 'delivery' in details.get('types', []) else 'Not Available',
-                    'menu': restaurant.get('menu'),
+                    # 'menu': restaurant.get('menu'),
                     # 'menu': 'Menu details not available through Google Places API',  # Placeholder
                     'website': details.get('website')
                 }
@@ -77,7 +77,7 @@ def main():
             print(f"Rating: {restaurant['rating']}")
             print(f"Distance: {restaurant['distance']}")
             print(f"Delivery: {restaurant['delivery']}")
-            print(f"Menu: {restaurant['menu']}")
+            # print(f"Menu: {restaurant['menu']}")
             print(f"Website: {restaurant['website']}")
             print()
 

@@ -1,0 +1,232 @@
+/*===========================================
+
+Template Name: 
+Author:
+Author URI:
+Version: 1.0
+    
+---------------------------------------------
+    
+CSS INDEX
+=========
+
+1. Base CSS
+2. Home CSS
+3. Home 2 CSS
+4. Checkout page CSS
+5. 404 page style
+6. blog_page_style
+7. single blog page_style
+8. contact page css
+9. Category Page CSS
+10. Cart Page CSS
+11. product detail page CSS
+12. Mobile menu CSS
+13. xTra CSS
+14. IE CSS
+
+==============================================*/
+
+
+
+
+/* ============================================
+    Netpay CSS
+===============================================*/
+.make-payment-company {
+    border: 1px solid #cccee2;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.make-payment-company-title {
+    background-color: #eff1f9;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #cccee2;
+    border-right: 1px solid #cccee2;
+}
+.make-payment-company-info {
+    border-right: 1px solid #cccee2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pay-to {
+    border-right: 1px solid #cccee2;
+}
+.pay-to-name {
+    border-right: 1px solid #cccee2;
+}
+
+
+.gbp-content {
+    font-size: 24px;
+    padding-top: 13px;
+}
+
+.shipping-details-field{
+    background-color: #eff1f9;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #cccee2;
+    line-height: 28px;
+}
+.card-details-field, .billing-details-field{
+    background-color: #eff1f9;
+    padding: 10px 10px 2px 10px;
+    border: 1px solid #cccee2;
+}
+.card-details-field input, .billing-details-field input {
+    border-radius: 0;
+    margin-bottom: 8px;
+}
+.card-details-field select, .billing-details-field select{
+    border-radius: 0;
+}
+.card-expire-title{
+    padding-top: 6px;
+}
+.billing-details-field .form-group, .card-details-field .form-group{
+    margin-bottom: 8px;
+}
+.billing-details-title, .card-details-title, .order-items-details-title, .shipping-details-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+    color: #888fb0;
+}
+.marked-required{
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.card-billing-details {
+    padding-bottom: 25px;
+}
+
+.order-items {
+    border: 1px solid #cccee2;
+}
+.order-items table{
+    margin-bottom: 0;
+}
+.order-items table th{
+    background-color: #eff1f9;
+    color: #46424c;
+}
+.item-name-small {
+    font-size: 11px;
+}
+.payment-btn button{
+    border-radius: 0;
+    text-transform: uppercase;
+}
+.payment-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-icon, .billing-details-icon, .order-cart-icon, .shipping-icon {
+    float: left;
+    background-color: #eff1f9;
+    padding: 9px 15px;
+    border-top: 1px solid #cccee2;
+    border-left: 1px solid #cccee2;
+    border-right: 1px solid #cccee2;
+}
+.card-icon i, .billing-details-icon i, .order-cart-icon i, .shipping-icon i{
+    color: #888fb0;
+    font-size: 28px;
+}
+.card-details-title, .billing-details-title, .order-items-details-title, .shipping-details-title {
+    text-align: center;
+}
+
+
+
+
+
+.single-card-info input {
+    float: left;
+    width: 85%;
+}
+.single-card-photo {
+    float: left;
+}
+.single-card-info img {
+    max-width: 52px;
+}
+
+
+
+
+@media (max-width: 992px) {
+    .billing-details-top {
+        margin-top: 20px;
+    }
+    .shipping-details-top {
+        margin-top: 20px;
+    }
+    .gbp-content {
+        border-top: 1px solid #d1d1d1;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+}
+@media (max-width: 767px) {
+    .single-card-info input {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pr0{
+        padding-right: 0 !important;
+    }
+}
+
+/* ---------- end Netpay CSS ------------ */
+
+
+
+/* ---------- Start Netpay confirm payment CSS ------------ */
+
+.order-items-shipping-details.confirm-payment{
+
+}
+.confirm-payment-gbp {
+    font-size: 26px;
+    font-weight: 700;
+}
+.order-items-shipping-details.confirm-payment .pay-to-name {
+    border-right: 0;
+}
+.confirm-payment h6{
+    text-transform: uppercase;
+    color: #888fb0;
+}
+.order-items-shipping-details.confirm-payment .table > tbody > tr > td{
+    border-right: 1px solid #ddd;
+    padding: 15px 15px 10px 15px;
+}
+
+/* ---------- End Netpay confirm payment CSS ------------ */
+.netpay-header {
+    border-bottom: 4px solid #e7604a;
+    padding: 20px 0 0 0;
+}
+.netpay-footer {
+    border-top: 4px solid #e7604a;
+    padding: 10px 0 10px 0;
+    background-color: #212124;
+}
+.netpay-footer h6{
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+
+
+
+
